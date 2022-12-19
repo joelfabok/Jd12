@@ -30,7 +30,7 @@ import {
   NavLink,
   Nav,
   Container,
-  Button
+  Button,
 } from "reactstrap";
 
 function ExamplesNavbar() {
@@ -78,12 +78,12 @@ function ExamplesNavbar() {
             title="Coded by Creative Tim"
             tag={Link}
           >
-            Paper Kit 2
+            Jdauntless12
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
-              toggled: navbarCollapse
+              toggled: navbarCollapse,
             })}
             onClick={toggleNavbarCollapse}
           >
@@ -103,14 +103,7 @@ function ExamplesNavbar() {
                 <i className="nc-icon nc-layout-11" /> Components
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-examples-navbar"
-                target="_blank"
-              >
-                <i className="nc-icon nc-book-bookmark" /> Documentation
-              </NavLink>
-            </NavItem>
+
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -154,16 +147,6 @@ function ExamplesNavbar() {
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
-            </NavItem>
-            <NavItem>
-              <Button
-                className="btn-round"
-                color="danger"
-                href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-examples-navbar"
-                target="_blank"
-              >
-                <i className="nc-icon nc-spaceship"></i> Upgrade to Pro
-              </Button>
             </NavItem>
           </Nav>
         </Collapse>

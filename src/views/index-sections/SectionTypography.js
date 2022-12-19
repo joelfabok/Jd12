@@ -146,7 +146,7 @@ function SectionTypography() {
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/img/uriel-soberanes.jpg")}
+                  // src={require("assets/img/uriel-soberanes.jpg")}
                 />
                 <div className="img-details">
                   <div className="author">

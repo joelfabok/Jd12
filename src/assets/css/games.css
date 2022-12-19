@@ -1,0 +1,11 @@
+.games {
+  display: flex;
+  width: 100%;
+  max-width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 20px;
+}
+.game {
+  margin: 0px 12px;
+}

@@ -41,7 +41,7 @@ function ProfilePageHeader() {
 
   return (
     <>
-      <div
+      {/* <div
         style={{
           backgroundImage:
             "url(" + require("assets/img/fabio-mangione.jpg") + ")"
@@ -51,7 +51,7 @@ function ProfilePageHeader() {
         ref={pageHeader}
       >
         <div className="filter" />
-      </div>
+      </div> */}
     </>
   );
 }
