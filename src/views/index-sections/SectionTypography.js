@@ -143,11 +143,7 @@ function SectionTypography() {
             <Row>
               <Col md="3" sm="6">
                 <h4 className="images-title">Rounded Image</h4>
-                <img
-                  alt="..."
-                  className="img-rounded img-responsive"
-                  // src={require("assets/img/uriel-soberanes.jpg")}
-                />
+
                 <div className="img-details">
                   <div className="author">
                     <img
